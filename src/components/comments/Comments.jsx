@@ -28,6 +28,30 @@ const Comments = () => {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur atque libero labore rerum, asperiores, ab incidunt facilis eum est, iste voluptatibus voluptatum? Dolor quam sit eos non, veritatis nam quod.
                     </p>
                 </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image src="/p1.jpeg" alt='' width={50} height={50} className={styles.image} />
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>John Doe</span>
+                            <span className={styles.date}>01.01.2024</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur atque libero labore rerum, asperiores, ab incidunt facilis eum est, iste voluptatibus voluptatum? Dolor quam sit eos non, veritatis nam quod.
+                    </p>
+                </div>
+                <div className={styles.comment}>
+                    <div className={styles.user}>
+                        <Image src="/p1.jpeg" alt='' width={50} height={50} className={styles.image} />
+                        <div className={styles.userInfo}>
+                            <span className={styles.username}>John Doe</span>
+                            <span className={styles.date}>01.01.2024</span>
+                        </div>
+                    </div>
+                    <p className={styles.desc}>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur atque libero labore rerum, asperiores, ab incidunt facilis eum est, iste voluptatibus voluptatum? Dolor quam sit eos non, veritatis nam quod.
+                    </p>
+                </div>
             </div>
         </div>
     )
